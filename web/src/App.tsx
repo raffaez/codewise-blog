@@ -1,5 +1,3 @@
-import "./App.css";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -8,13 +6,14 @@ import Article from "./pages/Article";
 import ArticlesListPage from "./pages/ArticlesListPage";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
+import "./global.css";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <div id="page-body">
+      <Navbar />
+      <div className="max-w-[1124px] mx-auto h-screen grid gap-28 items-center">
+        <div>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
