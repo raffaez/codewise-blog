@@ -1,10 +1,13 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Article from "./pages/Article";
-import ArticlesList from "./pages/ArticlesList";
+import ArticlesListPage from "./pages/ArticlesListPage";
 import Home from "./pages/Home";
-import Navbar from "./components/Navbar";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -15,8 +18,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/articles" element={<ArticlesList />} />
+            <Route path="/articles" element={<ArticlesListPage />} />
             <Route path="/articles/:articleId" element={<Article />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
