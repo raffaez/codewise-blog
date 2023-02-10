@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="max-w-[1124px] mx-auto h-screen grid gap-28 items-center">
+      <div className="max-w-[1124px] mx-auto h-screen grid gap-28 items-start mt-5">
         <div>
           <Routes>
             <Route path="/" element={<Home />} />

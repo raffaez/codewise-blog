@@ -23,7 +23,7 @@ const articles = [
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
         ]
-    },    {
+    }, {
         name: 'learn-node',
         title: 'How to Build a Node Server in 10 Minutes',
         content: [
@@ -47,7 +47,7 @@ const articles = [
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
         ]
-    },     {
+    }, {
         name: 'mongodb',
         title: 'Learn MongoDB',
         content: [
@@ -71,7 +71,29 @@ const articles = [
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
         ]
-    },  
+    }, {
+        name: 'learn-graphql',
+        title: 'Learn GraphQL',
+        content: [
+            `Today is the day I talk about something which scares most people: resumes.
+            In reality, I'm not sure why people have such a hard time with proin congue
+            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo.
+            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis,
+            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut
+            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at
+            sodales purus euismod.`,
+        ]
+    }, {
+        name: 'learn-angular',
+        title: 'Learn Angular',
+        content: [
+            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed in turpis leo. Aliquam malesuada in massa tincidunt egestas. Nam consectetur
+            varius turpis, non porta arcu porttitor non. In tincidunt vulputate nulla quis
+            egestas. Ut eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est
+            luctus, at sodales purus euismod.`,
+        ]
+    }
 ];
 
 export default articles;

@@ -1,10 +1,11 @@
 import React from "react";
+import Title from "../components/Title";
 
 function About() {
   return (
-    <>
-      <h1>About Me</h1>
-      <p>
+    <div className="text-center max-w-xl mx-auto">
+      <Title>About me</Title>
+      <p className="text-base text-justify mt-2 mb-1">
         Welcome to my blog! Proin congue ligula id risus posuere, vel eleifend
         ex egestas. Sed in turpis leo. Aliquam malesuada in massa tincidunt
         egestas. Nam consectetur varius turpis, non porta arcu porttitor non. In
@@ -12,25 +13,25 @@ function About() {
         fringilla. Praesent imperdiet nulla nec est luctus, at sodales purus
         euismod.
       </p>
-      <p>
+      <p className="text-base text-justify mt-2 mb-1">
         Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices
         dapibus. Nam blandit tristique risus, eget accumsan nisl interdum eu.
         Aenean ac accumsan nisi. Nunc vel pulvinar diam. Nam eleifend egestas
         viverra. Donec finibus lectus sed lorem ultricies, eget ornare leo
         luctus. Morbi vehicula, nulla eu tempor interdum, nibh elit congue
         tellus, ac vulputate urna lorem nec nisi. Morbi id consequat quam.
-        Vivamus accumsan dui in facilisis aliquet.,
+        Vivamus accumsan dui in facilisis aliquet.
       </p>
-      <p>
+      <p className="text-base text-justify mt-2 mb-1">
         Etiam nec lectus urna. Sed sodales ultrices dapibus. Nam blandit
         tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan
         nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec
         finibus lectus sed lorem ultricies, eget ornare leo luctus. Morbi
         vehicula, nulla eu tempor interdum, nibh elit congue tellus, ac
         vulputate urna lorem nec nisi. Morbi id consequat quam. Vivamus accumsan
-        dui in facilisis aliquet.,
+        dui in facilisis aliquet.
       </p>
-    </>
+    </div>
   );
 }
 
