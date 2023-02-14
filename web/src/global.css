@@ -6,3 +6,9 @@
 body {
   --webkit-font-smoothing: antialiased;
 }
+
+@layer components {
+  .navItem {
+    @apply text-gray-700 dark:text-gray-50 font-poppins text-base font-medium tracking-widest uppercase px-4 transition-all ease-in-out hover:text-gray-900 dark:hover:text-gray-200/80;
+  }
+}
