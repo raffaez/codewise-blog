@@ -11,4 +11,10 @@ body {
   .navItem {
     @apply text-gray-700 dark:text-gray-50 font-poppins text-base font-medium tracking-widest uppercase px-4 transition-all ease-in-out hover:text-gray-900 dark:hover:text-gray-200/80;
   }
+  .aboutText {
+    @apply text-gray-700 dark:text-gray-200/80 tracking-wide text-justify;
+  }
+  .aboutHighlight {
+    @apply font-bold font-poppins text-emerald-500;
+  }
 }

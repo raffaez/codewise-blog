@@ -5,12 +5,10 @@ import Title from "../components/Title";
 
 function ArticlesListPage() {
   return (
-    <>
-      <Title>
-        <div className="text-center">Articles</div>
-      </Title>
+    <div className="flex flex-col space-y-5">
+      <Title title={"articles"} />
       <ArticlesList articles={articles} />
-    </>
+    </div>
   );
 }
 
