@@ -10,20 +10,22 @@ import "./global.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <div className="max-w-[1124px] mx-auto h-screen grid gap-28 items-start mt-5">
-        <div>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/articles" element={<ArticlesListPage />} />
-            <Route path="/articles/:articleId" element={<Article />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+    <div className="bg-gray-50 dark:bg-blue-950 scroll-smooth">
+      <BrowserRouter>
+        <Navbar />
+        <div className="max-w-screen min-h-screen mx-auto pb-10 grid gap-28 items-start mt-5">
+          <div>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/articles" element={<ArticlesListPage />} />
+              <Route path="/articles/:articleId" element={<Article />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </div>
         </div>
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   );
 }
 
