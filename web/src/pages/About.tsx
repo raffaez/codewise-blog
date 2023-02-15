@@ -5,34 +5,27 @@ function About() {
   return (
     <div className="flex items-start flex-col space-y-5 mx-10">
       <Title title="about" />
-      <div className="flex flex-col-reverse xl:flex-row xl:h-96 items-center bg-blue-600/20 dark:bg-blue-600/10 rounded-lg">
-        <div className="p-5 flex flex-col space-y-3 justify-center xl:space-y-2 text-slate-700">
+      <div className="flex flex-col-reverse lg:flex-row lg:h-96 items-center bg-blue-600/20 dark:bg-blue-600/10 rounded-lg">
+        <div className="p-5 flex flex-col space-y-3 justify-center xl:space-y-5">
           <p className="aboutText">
-            Welcome to <span className="aboutHighlight">CodeWise</span>, the
-            ultimate destination for programming and software development
-            tutorials.
+            Welcome to <span className="aboutHighlight">CodeWise</span>, your
+            one-stop-shop for programming tutorials. Our tutorials are designed
+            to help you learn programming in a simple and practical way, with
+            step-by-step guides on a variety of programming languages, tools,
+            and techniques.
           </p>
           <p className="aboutText">
-            Our <span className="aboutHighlight">mission</span> is to help you
-            build your skills and advance your career through our comprehensive
-            and <span className="aboutHighlight">easy-to-follow</span> guides.
-            From web development and mobile app development to data science and
-            artificial intelligence, we cover a wide range of topics to help you
-            stay <span className="aboutHighlight">ahead of the curve</span> in
-            today's fast-paced technology landscape.
+            At <span className="aboutHighlight">CodeWise</span>, we believe that
+            anyone can learn to code, no matter their background or experience.
+            Our aim is to make programming accessible to everyone, from
+            beginners to seasoned developers, by providing easy-to-follow
+            tutorials that help you build real-world applications.
           </p>
           <p className="aboutText">
-            Our <span className="aboutHighlight">expert</span> authors and
-            contributors are passionate about sharing their knowledge and
-            experience with you, and we're{" "}
-            <span className="aboutHighlight">dedicated</span> to creating a
-            supportive community where you can ask questions, exchange ideas,
-            and collaborate on projects.
-          </p>
-          <p className="aboutText">
-            So whether you're a beginner or a seasoned pro, we've got you{" "}
-            <span className="aboutHighlight">covered</span>. Join us today and
-            let's start exploring the exciting world of programming together!
+            Join our community of learners today and start your journey towards
+            becoming a skilled programmer. Our team of expert developers is here
+            to guide you through every step of the way. So, come and explore the
+            world of programming with us!
           </p>
         </div>
         <img
