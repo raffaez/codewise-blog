@@ -3,9 +3,15 @@ import { useTypewriter } from "react-simple-typewriter";
 
 type Props = {
   title: string;
+  size?: string;
+  color?: string;
 };
 
-function Title({ title }: Props) {
+function Title({
+  title,
+  size = "text-7xl md:text-8xl",
+  color = "text-blue-700 dark:text-gray-50/80",
+}: Props) {
   const [text, helper] = useTypewriter({
     words: [`${title.toLowerCase()}`],
     loop: 1,
@@ -13,7 +19,7 @@ function Title({ title }: Props) {
   });
 
   return (
-    <div className="text-7xl md:text-8xl ml-5 font-bold text-slate-700 dark:text-gray-50/80">
+    <div className={` font-bold ${size} ${color}`}>
       {"<"}
       <span className="font-poppins">{text}</span>
       {">"}
