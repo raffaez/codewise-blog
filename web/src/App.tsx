@@ -11,7 +11,7 @@ import ArticlePage from "./pages/ArticlePage";
 
 function App() {
   return (
-    <div className="bg-gray-50 dark:bg-blue-950 scroll-smooth min-w-screen min-h-screen">
+    <div className="bg-gray-50 dark:bg-blue-950 scroll-smooth min-w-screen min-h-screen overflow-x-hidden">
       <BrowserRouter>
         <Navbar />
         <div className="mx-auto pb-10 mt-5 grid gap-28 items-start">
